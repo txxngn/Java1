@@ -5,7 +5,7 @@ public class ex4 {
         //WAP Check if number is palindrome or not, should display at least one message "either palindrome or not"
         //Palindrome : đọc đầu hay cuối đều giống nhau. vd : 1221
         //Number is Palindrome if the number remains the same when its digits are reversed.
-
+        //upload 23/7 4
         System.out.println("Enter a 4 digits number: ");
         int num = input.nextInt();
 
