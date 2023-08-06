@@ -1,33 +1,49 @@
-package Week11;
-import java.util.Scanner;
+package Week12;
+
+import org.w3c.dom.ls.LSOutput;
 
 public class Pract1 {
     public static void main (String [] args){
         /*
-        Create user defined exception:
-        if age <0, raise an exception to print under aged
-        if age >125, raise an exception to print over aged
-        otherwise, print the aged entered by the user
+        WAP to create the following class and objects
+        Animal : Age; Gender. printAge(int); printGender(String)
+        Dog: Animal. Age = 12; Gender = "Male"
+        Cat: Animal. Age = 2; Gender = "Female"
          */
-        Scanner input = new Scanner (System.in);
-        System.out.println("Enter an age: ");
-        int age = input.nextInt();
-
-        try{
-            if (age<0)
-                throw new Exception("This is not a valid age due to Under aged");
-            else if (age > 125) {
-                throw new Exception("This is not a valid age due to Over aged");
-            }
-            System.out.println("Entered age: " +age);
-        }
-
-        catch (Exception e){
-            //System.out.println(e);
-            System.out.println("Please input a valid age");
-        }
+        Animal dog = new Animal();
+        Animal cat = new Animal();
+        dog.age = 12;
+        dog.gender = "Male";
+        cat.age = 2;
+        cat.gender = "Female";
+        System.out.println("Dog age is " + dog.age + " and gender is " +dog.gender );
+        System.out.println("Cat age is " + cat.age + " and gender is " +cat.gender );
+        System.out.println();
 
 
+        //Use other class with constructor
+        AnimalWithConstructor dog1 = new AnimalWithConstructor(13, 'M');
+        System.out.println("Dog age is " + dog1.age + " and gender is " +dog1.gender);
+        AnimalWithConstructor cat1 = new AnimalWithConstructor(4, 'F');
+        System.out.println("Car age is " + cat1.age + " and gender is " +cat1.gender);
 
     }
+}
+class Animal{
+    int age;
+    String gender;
+
+
+}
+
+//Or more advance is using the constructor
+class AnimalWithConstructor{
+    int age;
+    char gender;
+    AnimalWithConstructor (int newAge, char newGender){
+        age = newAge;
+        gender = newGender;
+
+    }
+
 }
