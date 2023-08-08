@@ -3,7 +3,7 @@ public class ex2 {
         //Write a program to find out the sum of a three digit positive integer.
         //For example : 345 has sum 12.
         //Dùng modulus
-        //upload 23/7 1
+        //upload 08/08 1
         int num = 345;
         int lastDigit = num % 10; //Will give 5
         System.out.println(lastDigit);
