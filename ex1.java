@@ -4,7 +4,7 @@ public class ex1 {
         //Take Hourly pay as 11.99$ per hour as constant using:
         //final float HOURLYPAY = 11.99;
         //Calculate Bi-Weekly pay for that user and display the output.
-        //upload 23/7 2
+        //upload 08/8/7 2
         final float Hourly_Pay = 11.99f;
         int total_hour= 25;
         float Bi_week = Hourly_Pay*total_hour*2;
