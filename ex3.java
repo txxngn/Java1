@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ex3 {
     public static void main (String [] args){
         Scanner input = new Scanner(System.in);
-        //upload 23/7 3
+        //upload 08/08 3
         //Write a program using Switch statement to print If the character is A,E,I,O, or U,
         //it is vowel otherwise consonant.
 
