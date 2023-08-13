@@ -1,6 +1,6 @@
 package Week7;
 import  java.util.Scanner;
-
+//TN
 public class Prac1W7 {
     public static void main (String [] args){
         Scanner input = new Scanner (System.in);
