@@ -1,5 +1,5 @@
 package Week7;
-
+//TN
 import java.util.Scanner;
 import java.lang.Math;
 
